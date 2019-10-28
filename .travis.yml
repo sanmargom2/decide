@@ -21,5 +21,9 @@ script:
   - python-codacy-coverage -r coverage.xml
  
  notifications:
- email:false
+  email:
+    recipients:
+      -santinhomago@hotmail.com
+    on_success:never
+    on_failure:always
  
