@@ -25,5 +25,5 @@ script:
     recipients:
       -santinhomago@hotmail.com
     on_success:never
-    on_failure:always
+    on_failure:never
  
