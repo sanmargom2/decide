@@ -1,6 +1,6 @@
 language: python 
 python: 
-- "3.6"
+-"3.6"
 env: 
 - DJANGO=2.0 DB=postgres
 before_install: 
